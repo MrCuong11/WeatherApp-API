@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="">
+    <div id="weather">
+        <input type="text" class="search" placeholder="Search city...">
+        <div class="content hide">
+            <h1 class="capital">
+                <span class="city"></span>
+                <span class="country"></span>
+            </h1>
+            <div class="time"></div>
+            <div class="temperature">
+                <span class="value"></span>
+            </div>
+            <div class="short-desc"></div>
+            <div class="more-desc">
+                <div class="visible">
+                    <i class="fa-solid fa-eye"></i>
+                    <span></span>
+                </div>
+
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <span></span>
+                </div>
+
+                <div class="sun">
+                    <i class="fa-solid fa-cloud-sun"></i>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+
+</html>
